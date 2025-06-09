@@ -295,7 +295,7 @@ st.header("Patient Information")
 col1, col2 = st.columns(2)
 
 with col1:
-    center = st.selectbox("Medical Center", ["Yekatit12", "St. Peter", "Black Lion", "Tikur Anbessa", "Zewditu"])
+    center = st.selectbox("Medical Center", ["Yekatit12","Minilik","RASDESTA","ZEWUDITU","DBU", "St. Peter", "Black Lion", "Tikur Anbessa", "Zewditu"])
     sex = st.selectbox("Gender", ["Male", "Female"])
     age = st.number_input("Age", min_value=0, max_value=120, value=58)
     address = st.selectbox("Address", ["Addis Ababa", "Outside Addis", "Rural"])
